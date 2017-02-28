@@ -75,21 +75,28 @@
     margin: auto auto;
   }
   .message-body {
-    /*background-color: #cccccc !important;*/
     font-size: 20px !important;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     border-radius: 10px;
-    background: #ffffff; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#ffffff, #cccccc); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ffffff, #eeeeee); /* Standard syntax */
+    background: #ffffff;
+    background: -webkit-linear-gradient(#ffffff, #cccccc);
+    background: -o-linear-gradient(red, yellow);
+    background: -moz-linear-gradient(red, yellow);
+    background: linear-gradient(#ffffff, #eeeeee);
   }
   .description {
     padding: 5px;
     font-size: 0.6em;
     color: #000000 !important;
+  }
+  @media only screen and (max-width: 768px) {
+    .title { font-size: 3.5vw; }
+    .subtitle { font-size: 2.5vw; }
+  }
+  @media only screen and (max-width: 600px) {
+    .title { font-size: 4.5vw; }
+    .subtitle { font-size: 3.5vw; }
   }
 </style>
