@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.23.0",
     "bulma": "^0.3.2",
     "font-awesome": "^4.7.0",
